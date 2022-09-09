@@ -8,4 +8,9 @@
     --sliderIconGrey: #9FA9AA;
     --lightGreyBg: #E1E1E1;
     --lighterGrey: #EEEEEE;
+    --btnGradient2: linear-gradient(103.04deg, #41474A -7.42%, #788587 40.71%, #E1E6E6 120.94%, #9BA8A9 153.03%);
+    --darkBorder: #6F6767;
+    --lightBg: #E5E5E5;
+    --inputBorder: #CED4DA;
+    --footerBg: #070404;
 }

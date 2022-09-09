@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -60,43 +60,46 @@ body {
 .navbar-dark .navbar-nav .contact-us:hover, .navbar-dark .navbar-nav .contact-us:active {
     color: var(--black);
 }
-.header-hero{
-    position: relative; 
+
+.header-hero {
+    position: relative;
 }
+
 .hero-section {
-    background:  linear-gradient(90.98deg, rgba(0, 0, 0, 0.6) 0.9%, rgba(0, 0, 0, 0.36) 71.1%, rgba(0, 0, 0, 0) 99.29%), url('../Assets/hero-bg.svg');
+    background: linear-gradient(90.98deg, rgba(0, 0, 0, 0.6) 0.9%, rgba(0, 0, 0, 0.36) 71.1%, rgba(0, 0, 0, 0) 99.29%), url('../Assets/hero-bg.svg');
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 100%;
     height: 600px;
     background-position: center center;
     background-size: cover;
-   position: absolute;
-   top: 0px;
-   z-index: -2;
+    position: absolute;
+    top: 0px;
+    z-index: -2;
 }
-.hero-box{
+
+.hero-box {
     margin-top: 180px;
-  
+
 }
+
 .hero-text {
-    font-size: 100px;
     background: linear-gradient(86.56deg, #5A6063 4.51%, #788587 18.99%, #E1E6E6 43.13%, #9BA8A9 52.78%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
- 
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
-
+    font-size: 7rem;
 }
-.hero-paragraph{
+
+.hero-paragraph {
     color: var(--textGrey);
     font-family: 'Inter', sans-serif;
 }
-.btn-gradient{
+
+.btn-gradient {
     font-size: 1.7rem;
     font-weight: 600;
     background: var(--gradient1);
@@ -105,62 +108,92 @@ body {
     outline: none;
     border-radius: 7px;
 }
-.slider-id{
 
+.btn-gradient2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    background: var(--btnGradient2);
+    padding: .7rem 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: var(--white);
 }
-.slider-id-img{
+
+.btn-submit {
+    font-size: 1.4rem;
+    font-weight: 300;
+    background: var(--btnGradient2);
+    padding: 1rem 3.3rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: var(--white);
+}
+
+.slider-id {}
+
+.slider-id-img {
     display: block;
     width: 270px;
     margin: 0 auto;
     margin-top: 60px;
 }
-.big-slider-icon{
+
+.big-slider-icon {
     font-size: 5rem;
     color: var(--sliderIconGrey);
 }
-.cev-right{
+
+.cev-right {
     position: absolute;
     left: 95%;
     top: 50%;
 }
-.cev-left{
+
+.cev-left {
     position: absolute;
     left: 1%;
     top: 51%;
 }
-.second-section{
+
+.second-section {
     background: var(--lightGreyBg) url('../Assets/zig-zag.png');
     margin-top: 510px;
-    padding: 90px;
+    padding: 9rem;
     font-family: 'Inter', sans-serif;
 }
-.second-about-heading{
+
+.second-about-heading {
     font-weight: 600;
 }
 
-.second-sucess-text{
+.second-sucess-text {
     font-weight: 700;
 }
 
-.second-paragraph{
+.second-paragraph {
     font-weight: 400;
     font-size: 1.4rem;
 }
-.box-highlight{
+
+.box-highlight-container {}
+
+.box-highlight {
     background-color: var(--lighterGrey);
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
     border-radius: 7px;
-    width: 140px;
-    margin: 20px;
     padding: 1rem 1.5rem;
+    margin: 20px;
 }
-.numbers{
+
+.numbers {
     font-size: 4rem;
     font-weight: 700;
 }
 
 
-.second-image-box{
+.second-image-box {
     background-color: var(--lighterGrey);
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
     border-radius: 7px;
@@ -168,8 +201,208 @@ body {
     margin-right: -60px;
     width: 450px;
 }
-.numbers-two{
+
+.numbers-two {
     font-weight: 700;
     font-size: 1.1rem;
+}
 
+.services-section {
+    padding: 6rem;
+    background: var(--lightBg) url('../Assets/zig-zag.png');
+    font-family: 'Inter', sans-serif;
+}
+
+.bordered-box {
+    border: 1px solid var(--darkBorder);
+    padding: 3rem 4rem;
+    border-radius: 5px;
+}
+
+.bordered-box .heading {
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.bordered-box .paragraph {
+    font-size: 1.4rem;
+}
+
+.large-image-section {
+    background-color: var(--lighterGrey);
+    padding: 2rem 3rem;
+}
+
+.large-image {
+    width: 80%;
+}
+
+.location-section {
+    padding: 6rem;
+    background-color: var(--lightBg);
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-section {
+    padding: 6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-section-1 {
+    background: url('../Assets/dubai-downtown-night-scene-with-city-lights-top-view-from\ 1.png');
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
+    padding: 4rem 5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.lets-talk {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.contact-paragraph {
+    font-size: 1.3rem;
+}
+
+.second-sucess-text {
+    font-size: 3.5rem;
+}
+
+.contact-section-2 {
+    padding: 4rem 5rem;
+    background-color: var(--lighterGrey);
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--white);
+    height: 45px;
+    outline: none;
+    padding: 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid var(--inputBorder);
+}
+
+.form-text-area {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--white);
+    outline: none;
+    padding: 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid var(--inputBorder);
+}
+
+.contact-section-2 label {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-section {
+    background-color: var(--footerBg);
+    padding: 5rem 5.5rem;
+    color: var(--white);
+}
+
+.footer-section p a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.subscribe-input {
+    display: inline-block;
+    width: 50%;
+    height: 35px;
+    margin: 3px;
+}
+
+.divider{
+    display: none !important;
+}
+
+/* Media Quereies */
+@media screen and (max-width: 600px) {
+    .second-section {
+        padding: 2rem 1rem;
+        text-align: left;
+
+    }
+
+    .box-highlight-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .box-highlight {
+        margin: auto;
+
+    }
+
+    .second-image-box {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .services-section {
+        padding: 2rem 1rem;
+    }
+
+    .large-image {
+        width: 100%;
+    }
+
+    .contact-section {
+        padding: 2rem 1rem;
+    }
+
+    .contact-section-1 {
+        padding: 2rem 2.5rem;
+    }
+
+    .contact-section-2 {
+        padding: 2rem 2.5rem;
+    }
+
+ .divider {
+        display: none;
+    }
+
+    .divider-mobile {
+        width: 70%;
+        display: block !important;
+        margin-bottom: 20px;
+        margin: 0 auto;
+      
+    }
+
+    .footer-section {
+        padding: 2rem .5rem;
+    }
+
+    #icons div {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    #icons div .p-3 {
+        padding: 0;
+    }
+
+   .footer-section .row{
+    flex-direction: column-reverse !important;
+    }
+    .subscribe-input{
+        width: 70%;
+    }
 }
