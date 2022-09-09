@@ -1,0 +1,175 @@
+@import url('main.css');
+@import url('app.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: 90px;
+    height: 50px;
+}
+
+.mr-auto {
+    margin-left: auto;
+}
+
+.bg-custom-gradient {
+    background: rgb(0, 0, 0);
+    background: var(--navGradient);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--white);
+    margin-left: 5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: var(--white);
+}
+
+.navbar-dark .navbar-nav #contact-us a {
+    color: var(--black);
+}
+
+.navbar-dark .navbar-nav #contact-us {
+    background: rgb(85, 94, 97);
+    background: var(--gradient1);
+    padding: 1rem 2rem;
+    color: var(--black);
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.navbar-dark .navbar-nav .contact-us:hover, .navbar-dark .navbar-nav .contact-us:active {
+    color: var(--black);
+}
+.header-hero{
+    position: relative; 
+}
+.hero-section {
+    background:  linear-gradient(90.98deg, rgba(0, 0, 0, 0.6) 0.9%, rgba(0, 0, 0, 0.36) 71.1%, rgba(0, 0, 0, 0) 99.29%), url('../Assets/hero-bg.svg');
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+   position: absolute;
+   top: 0px;
+   z-index: -2;
+}
+.hero-box{
+    margin-top: 180px;
+  
+}
+.hero-text {
+    font-size: 100px;
+    background: linear-gradient(86.56deg, #5A6063 4.51%, #788587 18.99%, #E1E6E6 43.13%, #9BA8A9 52.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+ 
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+
+}
+.hero-paragraph{
+    color: var(--textGrey);
+    font-family: 'Inter', sans-serif;
+}
+.btn-gradient{
+    font-size: 1.7rem;
+    font-weight: 600;
+    background: var(--gradient1);
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.slider-id{
+
+}
+.slider-id-img{
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.big-slider-icon{
+    font-size: 5rem;
+    color: var(--sliderIconGrey);
+}
+.cev-right{
+    position: absolute;
+    left: 95%;
+    top: 50%;
+}
+.cev-left{
+    position: absolute;
+    left: 1%;
+    top: 51%;
+}
+.second-section{
+    background: var(--lightGreyBg) url('../Assets/zig-zag.png');
+    margin-top: 510px;
+    padding: 90px;
+    font-family: 'Inter', sans-serif;
+}
+.second-about-heading{
+    font-weight: 600;
+}
+
+.second-sucess-text{
+    font-weight: 700;
+}
+
+.second-paragraph{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.box-highlight{
+    background-color: var(--lighterGrey);
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+    border-radius: 7px;
+    width: 140px;
+    margin: 20px;
+    padding: 1rem 1.5rem;
+}
+.numbers{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.second-image-box{
+    background-color: var(--lighterGrey);
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+    border-radius: 7px;
+    padding: 1rem 1.4rem;
+    margin-right: -60px;
+    width: 450px;
+}
+.numbers-two{
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
