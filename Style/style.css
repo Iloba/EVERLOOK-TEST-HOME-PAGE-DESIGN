@@ -405,4 +405,23 @@ body {
     .subscribe-input{
         width: 70%;
     }
+    .hero-text{
+        font-size: 3.5rem;
+    }
+
+   
+    .navbar .navbar-nav .nav-item .nav-link{
+        padding: 0px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .navbar-dark .navbar-nav  #contact-us{
+      background: none;
+      background-color: transparent;
+      color: var(--white);
+      margin-left: 0px;
+      padding: 0px;
+     
+    }
 }
