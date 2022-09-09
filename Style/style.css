@@ -31,10 +31,7 @@ body {
 }
 
 .bg-custom-gradient {
-    /* background: rgb(0, 0, 0);
-    background: var(--navGradient); */
     background: linear-gradient(90.98deg, rgba(0, 0, 0, 0.6) 0.9%, rgba(0, 0, 0, 0.36) 71.1%, rgba(0, 0, 0, 0) 99.29%), url('../Assets/hero-bg.svg');
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
     background-position: top left;
 }
 
@@ -65,7 +62,7 @@ body {
 }
 
 .header-hero {
-    position: relative;
+    /* position: relative; */
 }
 
 .hero-section {
@@ -81,7 +78,7 @@ body {
 }
 
 .hero-box {
-    margin-top: 180px;
+    margin-top: 150px;
 
 }
 
@@ -330,6 +327,24 @@ body {
 .divider{
     display: none !important;
 }
+.slider-image{
+ 
+}
+#carousel{
+    background: var(--black);
+    overflow: hidden;
+    background: var(--black);
+    background: linear-gradient(90.98deg, rgba(0, 0, 0, 0.6) 0.9%, rgba(0, 0, 0, 0.36) 71.1%, rgba(0, 0, 0, 0) 99.29%), url('../Assets/hero-bg.svg');
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.big{
+    font-size: 4rem;
+}
+
+
+
+
+
 
 /* Media Quereies */
 @media screen and (max-width: 600px) {
@@ -410,7 +425,7 @@ body {
         width: 70%;
     }
     .hero-text{
-        font-size: 3.5rem;
+        font-size: 1.2rem;
     }
 
    
@@ -426,5 +441,66 @@ body {
       color: var(--white);
       margin-left: 0px;
       padding: 0px;
+    }
+    .carousel-caption{
+        top: -1.2rem;
+        width: 100%;
+       font-size: 1.3rem;
+    }
+    .carousel-caption .hero-text{
+        font-size: 2.5rem; 
+    }
+    /* .carousel-caption h1{
+        font-size: rem;
+    } */
+ 
+}
+
+@media screen and (max-width: 320px) {
+    .carousel-caption{
+       bottom: .5rem;
+     
+    }
+    .carousel-caption .my-caption .hero-text{
+        font-size: 2.5rem;
+    }
+    .carousel-caption .my-caption  .btn-gradient{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption{
+        bottom: 13rem;
+    }
+    .carousel-caption h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .carousel-caption{
+        bottom: 13rem;
+    }
+    .carousel-caption h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .carousel-caption{
+        bottom: 13rem;
+    }
+    .carousel-caption h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .carousel-caption{
+        bottom: 13rem;
+    }
+    .carousel-caption h1{
+        font-size: 4.5rem;
     }
 }
