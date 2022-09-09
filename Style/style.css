@@ -350,7 +350,7 @@ body {
 /* Media Quereies */
 @media screen and (max-width: 600px) {
     .second-section {
-        padding: 2rem 1rem;
+        padding: 6rem 1rem;
         text-align: left;
 
     }
@@ -371,17 +371,17 @@ body {
     }
 
     .services-section {
-        padding: 2rem 1rem;
+        padding: 6rem 1rem;
     }
    .location-section{
-    padding: 1rem 1rem;
+    padding: 6rem 1rem;
    }
     .large-image {
         width: 100%;
     }
 
     .contact-section {
-        padding: 2rem 1rem;
+        padding: 6rem 1rem;
     }
 
     .contact-section-1 {
