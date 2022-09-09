@@ -31,8 +31,11 @@ body {
 }
 
 .bg-custom-gradient {
-    background: rgb(0, 0, 0);
-    background: var(--navGradient);
+    /* background: rgb(0, 0, 0);
+    background: var(--navGradient); */
+    background: linear-gradient(90.98deg, rgba(0, 0, 0, 0.6) 0.9%, rgba(0, 0, 0, 0.36) 71.1%, rgba(0, 0, 0, 0) 99.29%), url('../Assets/hero-bg.svg');
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    background-position: top left;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -72,7 +75,7 @@ body {
     height: 600px;
     background-position: center center;
     background-size: cover;
-    position: absolute;
+    position: relative;
     top: 0px;
     z-index: -2;
 }
@@ -159,9 +162,10 @@ body {
 
 .second-section {
     background: var(--lightGreyBg) url('../Assets/zig-zag.png');
-    margin-top: 510px;
+    /* margin-top: 510px; */
     padding: 9rem;
     font-family: 'Inter', sans-serif;
+    position: relative;
 }
 
 .second-about-heading {
@@ -422,6 +426,5 @@ body {
       color: var(--white);
       margin-left: 0px;
       padding: 0px;
-     
     }
 }
